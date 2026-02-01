@@ -1,0 +1,36 @@
+# Build artifacts
+build/
+sdkconfig
+sdkconfig.old
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Dependencies
+dependencies.lock
+managed_components/
+
+# IDE specific
+.vscode/
+.idea/
+*.code-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# ESP-IDF specific
+bootloader/
+partition_table/
+
+# Logs
+*.log
+
+LICENSE

@@ -1,0 +1,5 @@
+# Required sdkconfig settings for ESP32 NAPT functionality
+
+CONFIG_LWIP_IP_FORWARD=y
+CONFIG_LWIP_IPV4_NAPT=y
+CONFIG_LWIP_IPV4_NAPT_PORTMAP=y

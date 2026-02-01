@@ -1,0 +1,30 @@
+menu "ESP32 NAPT Configuration"
+
+    config NAPT_DEFAULT_SSID
+        string "Default Hotspot SSID"
+        default "ESP32-Hotspot"
+        help
+            Default SSID for the WiFi hotspot when none is provided.
+
+    config NAPT_DEFAULT_PASSWORD
+        string "Default Hotspot Password"
+        default "esp32hotspot"
+        help
+            Default password for the WiFi hotspot. Must be at least 8 characters.
+            Leave empty for an open network (not recommended).
+
+    config NAPT_CHANNEL
+        int "Hotspot WiFi Channel"
+        range 1 13
+        default 1
+        help
+            WiFi channel for the hotspot access point.
+
+    config NAPT_MAX_CONNECTIONS
+        int "Maximum Client Connections"
+        range 1 10
+        default 4
+        help
+            Maximum number of simultaneous client connections to the hotspot.
+
+endmenu

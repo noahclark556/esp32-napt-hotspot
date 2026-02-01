@@ -1,0 +1,27 @@
+name: esp32-napt-hotspot
+version: "1.0.0"
+description: ESP32 WiFi hotspot with full internet sharing via NAPT and automatic DNS forwarding.
+dependencies:
+  idf: ">=5.0"
+url: https://github.com/noahclark556/esp32-napt-hotspot
+repository: https://github.com/noahclark556/esp32-napt-hotspot.git
+documentation: https://github.com/noahclark556/esp32-napt-hotspot/blob/main/README.md
+issues: https://github.com/noahclark556/esp32-napt-hotspot/issues
+maintainers:
+  - Noah Clark
+targets:
+  - esp32
+  - esp32s3
+  - esp32c3
+  - esp32c6
+  - esp32c2
+tags:
+  - wifi
+  - network
+  - nat
+  - napt
+  - hotspot
+  - router
+  - internet-sharing
+examples:
+  - path: examples/basic
