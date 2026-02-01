@@ -2,7 +2,7 @@
  *  File        : napt_interface.h
  *  Description : ESP32 WiFi hotspot with internet sharing via NAPT
  *  Author      : Noah Clark
- *  Created     : 2026-01-29
+ *  Created     : 2026-02-01
  *  Version     : 1.0.0
  *--------------------------------------------------------------------------------------
  *  See README.md for complete setup instructions.

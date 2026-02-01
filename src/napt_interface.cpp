@@ -2,7 +2,7 @@
  *  File        : napt_interface.cpp
  *  Description : ESP32 internet sharing with NAT and DNS forwarding
  *  Author      : Noah Clark
- *  Created     : 2026-01-29
+ *  Created     : 2026-02-01
  *--------------------------------------------------------------------------------------
  *  Part of the QC Smartwatch Firmware
  *--------------------------------------------------------------------------------------
@@ -22,7 +22,7 @@
 #include "lwip/ip4_addr.h"
 #include "lwip/sockets.h"
 
-// Default configuration values - can be overridden via sdkconfig
+// Default configuration values
 #ifndef DEFAULT_HOTSPOT_SSID
 #define DEFAULT_HOTSPOT_SSID "ESP32-Hotspot"
 #endif
