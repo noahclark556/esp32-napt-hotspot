@@ -44,19 +44,17 @@ Your ESP32 connects to your router in STA (station) mode, and creates its own Wi
 
 ### ESP-IDF (idf.py)
 
-Add to your `idf_component.yml`:
+You may clone this repo and integrate manually, or add the folowwing to your `idf_component.yml`:
 
 ```yaml
 dependencies:
-  esp32_napt:
-    git: https://github.com/noahclark556/esp32-napt-hotspot.git
+  noahclark556/esp32-napt-hotspot:
+    version: "^1.0.2"
 ```
 
-Or clone it manually into your project’s `components/` folder:
-
+Followed by the following command:
 ```bash
-cd components
-git clone https://github.com/noahclark556/esp32-napt-hotspot.git esp32_napt
+idf.py reconfigure
 ```
 
 ### PlatformIO
