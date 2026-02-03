@@ -203,10 +203,6 @@ Network configuration:
 
 MIT License — see [LICENSE](LICENSE) for details.
 
-## Credits
-
-Based on work by [martin-ger/esp32_nat_router](https://github.com/martin-ger/esp32_nat_router) and the ESP-IDF community.
-
 ## Support
 
 * Issues: [GitHub Issues](https://github.com/noahclark556/esp32-napt-hotspot/issues)
